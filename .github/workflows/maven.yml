@@ -18,7 +18,7 @@ jobs:
       uses: actions/setup-java@v2
       with:
         java-version: '1.8'
-        distribution: 'adopt'
+        #distribution: 'adopt'
     - name: Build with Maven
       run: mvn clean compile -Dmaven.test.skip=true
     
@@ -30,6 +30,6 @@ jobs:
       uses: actions/setup-java@v2
       with:
         java-version: '1.8'
-        distribution: 'adopt'
+        #distribution: 'adopt'
     - name: Test
       run: mvn test
