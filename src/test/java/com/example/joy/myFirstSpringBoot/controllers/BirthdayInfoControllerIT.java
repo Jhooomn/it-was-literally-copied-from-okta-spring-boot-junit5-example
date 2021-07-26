@@ -45,7 +45,7 @@ class BirthdayInfoControllerIT {
 
     @Test
     public void testGetBirthdayChineseSign() throws Exception {
-        testZodiak(bd1, "Sheep");
+        testZodiak(bd1, "NO A SHEEP DUDE");
         testZodiak(bd2, "Dog");
         testZodiak(bd3, "Rat");
         testZodiak(bd4, "Rooster");
