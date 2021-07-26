@@ -47,7 +47,7 @@ class BasicBirthdayServiceTest {
         assertEquals("Pisces", dow);
         dow = birthdayService.getStarSign(LocalDate.of(1945, 12, 2));
         assertEquals("Sagittarius", dow);
-        dow = birthdayService.getStarSign(LocalDate.of(2003, 8, 4));
+        dow = birthdayService.getStarSign(LocalDate.of(2003, 8, 5));
         assertEquals("Leo", dow);
     }
 }
